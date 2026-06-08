@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jyoti-ro-water-supplier.vercel.app/sitemap.xml
