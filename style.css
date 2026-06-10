@@ -2292,3 +2292,85 @@ FOOTER
     padding: 30px 0px;
   }
 }
+
+
+
+
+
+
+.purifiers-section{
+    padding:60px 20px;
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    font-size: 35px;
+    line-height: 1.1;
+    font-weight:700;
+    color:#0b2d5b;
+    margin-bottom:40px;
+}
+
+.purifier-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.purifier-card{
+    background:#fff;
+    padding:16px;
+    min-height:380px;
+    position:relative;
+}
+
+.image-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+    margin-top:20px;
+}
+
+.image-box img{
+    max-width:100%;
+    max-height:100%;
+    object-fit:contain;
+}
+
+/* Tablet */
+@media (max-width:1024px){
+
+    .section-title{
+        font-size:48px;
+    }
+
+    .purifier-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .section-title{
+        font-size:34px;
+    }
+
+    .purifier-grid{
+        grid-template-columns:1fr;
+    }
+
+    .purifier-card{
+        min-height:auto;
+    }
+
+    .image-box{
+        height:260px;
+    }
+}
