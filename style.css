@@ -2444,3 +2444,12 @@ FOOTER
         padding:18px;
     }
 }
+.contact-text{
+    margin-bottom:15px;
+    line-height:1.8;
+}
+
+.quick-contact iframe{
+    width:100%;
+    border-radius:12px;
+}
