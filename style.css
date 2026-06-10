@@ -2456,3 +2456,20 @@ FOOTER
   font-weight: 700;
   color: #0a2b5e;
 }
+.contact-details{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.contact-details a{
+  text-decoration:none;
+  color:#333;
+  font-size:16px;
+}
+
+.contact-details i{
+  color:#0d6efd;
+  margin-right:10px;
+  width:20px;
+}
