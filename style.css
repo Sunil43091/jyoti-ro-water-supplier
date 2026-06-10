@@ -1689,7 +1689,7 @@ margin:35px 0;
 
 .quick-contact{
 display:flex;
-align-items:center;
+align-items: stretch;
 gap:18px;
 
 }
