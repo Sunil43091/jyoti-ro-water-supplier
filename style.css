@@ -2479,3 +2479,47 @@ FOOTER
   margin-right:10px;
   width:20px;
 }
+.product-details{
+  padding:15px;
+}
+
+.product-details h4{
+  font-size:18px;
+  font-weight:600;
+  color:#222;
+  margin-bottom:6px;
+  line-height:1.4;
+}
+
+.discount{
+  color:#008c3a;
+  font-size:14px;
+  font-weight:700;
+  display:block;
+  margin-bottom:5px;
+}
+
+.price-row{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:5px;
+}
+
+.old-price{
+  text-decoration:line-through;
+  color:#777;
+  font-size:18px;
+}
+
+.new-price{
+  font-size:28px;
+  font-weight:700;
+  color:#111;
+}
+
+.offer-text{
+  color:#0d47a1;
+  font-size:14px;
+  font-weight:600;
+}
