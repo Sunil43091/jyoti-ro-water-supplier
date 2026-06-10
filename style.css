@@ -2435,7 +2435,9 @@ FOOTER
     .faq-heading h2{
         font-size:30px;
     }
-
+.faq-section{
+    padding:50px 20px;
+}
     .faq-item summary{
         font-size:16px;
         padding:18px;
