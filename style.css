@@ -2216,16 +2216,10 @@ FOOTER
 
 .footer-bottom {
   padding: 35px 0;
-
+  text-align:center;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 
-  display: flex;
 
-  justify-content: space-between;
-
-  align-items: center;
-
-  gap: 30px;
 }
 
 .bottom-links {
