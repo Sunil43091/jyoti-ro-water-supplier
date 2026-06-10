@@ -2523,3 +2523,18 @@ FOOTER
   font-size:14px;
   font-weight:600;
 }
+.service-icon{
+    width:70px;
+    height:70px;
+    margin:0 auto 20px;
+    border-radius:50%;
+    background:#eaf6ff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.service-icon i{
+    font-size:30px;
+    color:#0099ff;
+}
